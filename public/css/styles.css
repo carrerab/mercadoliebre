@@ -173,6 +173,33 @@ article div.main-article{
     padding: 15px;
 }
 
+footer{
+    background-color: #FFF;
+    margin-top: 20px;
+}
+
+footer div.footer-p{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+footer section{
+    padding: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+footer i{
+ text-align: center;
+ font-size: 2em;
+ margin-bottom: 10px;   
+}
+
+footer div.footer-article i{
+    color: #2576ee;
+}
+
+
 @media (min-width: 361px){
     main section article .description{
         display: block;
@@ -194,14 +221,27 @@ article div.main-article{
         width: 45%;
     }
 
+    .price{
+        font-size: 14px;
+    }
+
+    .discount{
+        font-size: 12px;
+    }
+    
+    .price,
+    .discount{
+        width: 50%; 
+    }
+}
+
+@media (min-width: 1080px){
+    main section div.products article{
+        width: 22%;
+    }
     .price,
     .discount{
         width: 50%;
     }
 }
 
-@media (min-width: 769px){
-    main section div.products article{
-        width: 22%;
-    }
-}
